@@ -78,7 +78,7 @@ dotnet publish -p:Configuration=Release NeoSPG/NeoSPG.csproj # if you want fewer
 ```
 If you're using .NET Framework or Mono:
 ```powershell
-Msbuild -p:Configuration=Release -t:Publish -restore:True neospg-mono/neospg.csproj
+msbuild -p:Configuration=Release -t:Publish -restore:True neospg-mono/neospg.csproj
 ```
 When build completes, you can find your binaries in <code>NeoSPG's source dir/bin/Release/net<i>XX</i>/publish</code>  
 (If you compiled it with .NET 5, `netXX` will be `net5.0`, else it will be `net45` )
