@@ -43,7 +43,7 @@ And then [build it yourself](/README.md#Build_it_yourself)
 NeoSPG can be built in several environments. But make sure you have any of these installed to reach the simplest compiling progress.  
 * .NET 5.0.11 SDK 
 * Mono 6 SDK
-* .NET Framework 4.5 SDK
+* .NET Framework 4.5 SDK  
 And make sure you have MSBuild version 16 in these SDKs.  
 ### Prepare the build environment
 #### `DOTNET_ROOT` variable
