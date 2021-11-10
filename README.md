@@ -3,7 +3,7 @@ A new Simplest Strong Password Generator.
 
 ## How to use it?
 First, go to [releases page](https://github.com/lingrottin/neospg/releases), download one which fits your OS.  
-*( NOTE: If I haven't complied binary file for your platform, please refer to [build guide](/README.md#Build_it_yourself) )*  
+*( NOTE: If I haven't complied binary file for your platform, please refer to [build guide](/README.md#build-it-yourself) )*  
 *( NOTE: You may need to get .NET Core or Mono runtime installed in order to run it )*  
 *( NOTE: mono build is cross-platform but you need Mono runtime to run it )*  
 Open your console, try these commands:
@@ -17,7 +17,7 @@ mono ./neospg.exe # if you got mono build
 
 ## Wow, 3600 is too much!
 NeoSPG uses powerful [CommandLineUtils](https://github.com/natemcmaster/CommandLineUtils) class lib. And this provides NeoSPG the ability to parse command line arguments.  
-Simple use these when you are executing `neospg`:
+Simply use these when you are executing `neospg`:
 ```powershell
 neospg -n18 -s abcdefg
 neospg -n:18 -s="NeoSPG is fucking best!"
@@ -36,7 +36,7 @@ public static string version="A sample configuration"; // Version, printed in "-
 public static int DefaultNumber=8848; // the number of characters generated when there's no "-n" option
 public static string DefaultString="I_Am-a~String!"; // the characters to be chosen from
 ```
-And then [build it yourself](/README.md#Build_it_yourself)
+And then [build it yourself](/README.md#build-it-yourself)
 
 
 ## Build it yourself
