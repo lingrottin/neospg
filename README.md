@@ -73,7 +73,7 @@ cat neospg-mono/neospg-mono.csproj > neospg-mono/neospg.csproj # if don't do thi
 ### Start the build!
 If you're using .NET Core:
 ```powershell
-dotnet build -c Release
+dotnet build -c Release neospg/neospg.csproj
 dotnet publish -p:Configuration=Release neospg/neospg.csproj # if you want fewer files
 ```
 If you're using .NET Framework or Mono:
