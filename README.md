@@ -47,14 +47,14 @@ NeoSPG can be built in several environments. But make sure you have any of these
 And make sure you have MSBuild version 16 in these SDKs.  
 ### Prepare the build environment
 #### `DOTNET_ROOT` variable
-If your .NET Core is not in `/usr/share/dotnet`, set `$DOTNET_ROOT` environment to dotnet core installed directory first. As for me, it's in `/opt/dotnet`:
+If your .NET Core is not in `/usr/share/dotnet`, set `$DOTNET_ROOT` environment to the directory where dotnet core installed first. As for me, it's in `/opt/dotnet`:
 ```bash
 export DOTNET_ROOT=/opt/dotnet
 ```
 #### Check MSBuild
 Check if MSBuild is in your system:
 ```powershell
-MSBuild -version
+msbuild -version
 ```
 #### Get the source code
 * Go to [releases](https://github.com/lingrottin/neospg/releases) and download the newest source code.
