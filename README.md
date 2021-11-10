@@ -40,7 +40,7 @@ And then [build it yourself](/README.md#build-it-yourself)
 
 
 ## Build it yourself
-***NOTE: Use bash.exe in Git for windows to run these commands correctly if you're building in Windows***
+***NOTE: Use bash.exe in Git for windows to run these commands correctly if you're building in Windows***  
 NeoSPG can be built in several environments. But make sure you have any of these installed to reach the simplest compiling progress.  
 * .NET 5.0.11 SDK 
 * Mono 6 SDK
