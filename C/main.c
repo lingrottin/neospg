@@ -20,13 +20,12 @@ static struct option long_options[] =
     {"version",no_argument,NULL,'v'},
     {"number",required_argument,NULL,'n'},
     {"string",required_argument,NULL,'s'},
-    {"interactive",required_argument,NULL,'i'}
 };
 
 void print_help(char*);
 void print_version(void);
 void require_argument(char);
-void generate(char genlist[], int number);
+void generate(char*,int);
 int main(int argc, char* argv[])
 {
 
