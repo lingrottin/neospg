@@ -126,7 +126,7 @@ void generate(char *genlist, int number)
     strncpy(genlist2, genlist, n + 1);
     for(int i=0; i<number; i++)
     {
-        printf("%c", genlist[rand()%n/*To limit the random number size*/]);
+        printf("%c", genlist2[rand()%n/*To limit the random number size*/]);
     }
     printf("\n");
     return;
