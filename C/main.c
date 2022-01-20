@@ -73,7 +73,6 @@ int main(int argc, char* argv[])
                 }
                 break;
             case '?':
-                fprintf(stderr, "%s %c\n", tr("Unknown option:"), optopt);
                 returnint=1;
                 break;
             default:
